@@ -21,8 +21,8 @@ public class Menu {
 				System.out.println("2 Editar Datos");
 				System.out.println("3 Importar Datos");
 				System.out.println("4 Salir");
-				System.out.println("---------------------------------");
-				System.out.println("Ingrese una opcion:");
+				System.out.println("********************************");
+				System.out.println("Ingrese una alternativa:");
 				op=sc.nextInt();
 			}while(op<1 || op>4);
 
@@ -30,7 +30,7 @@ public class Menu {
 				if (!ps.listaProductos.isEmpty()) {
 					for (Producto p : ps.listaProductos) {
 						System.out.println();
-						System.out.println("---------------------------------\n");
+						System.out.println("------------------------------\n");
 						System.out.println("Nombre articulo: "+p.getArticulo());
 						System.out.println("Codigo: "+p.getCodigo());
 						System.out.println("Marca: "+p.getMarca());
