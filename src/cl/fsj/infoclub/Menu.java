@@ -21,7 +21,7 @@ public class Menu {
 				System.out.println("2 Editar Datos");
 				System.out.println("3 Importar Datos");
 				System.out.println("4 Salir");
-				System.out.println("********************************");
+				System.out.println("-----------------------------------");
 				System.out.println("Ingrese una alternativa:");
 				op=sc.nextInt();
 			}while(op<1 || op>4);
